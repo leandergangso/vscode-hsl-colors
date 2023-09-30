@@ -18,7 +18,8 @@
 		"tailwindcss"
 	],
 	"activationEvents": [
-		"*"
+		"onLanguage:css",
+		"onLanguage:postcss"
 	],
 	"repository": {
 		"type": "git",
