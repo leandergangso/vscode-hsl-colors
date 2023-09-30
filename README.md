@@ -9,6 +9,7 @@ styles.css
 ```css
 @layer base {
   :root {
+    /* colors here will be highlighted */
     --color-primary: 234 40% 18%;
     --color-secondary: 422 40% 18%;
   }
@@ -19,8 +20,8 @@ tailwind.config.js
 ```js
 theme: {
   colors: {
-    primary: "hsl(var(--color-content-ghost) / <alpha-value>)",
-    secondary: "hsl(var(--color-content-link) / <alpha-value>)",
+    primary: "hsl(var(--color-primary) / <alpha-value>)",
+    secondary: "hsl(var(--color-secondary) / <alpha-value>)",
   }
 }
 ```
