@@ -25,3 +25,13 @@ theme: {
   }
 }
 ```
+
+### Setup
+
+I will not publish this extension, so to use you need to follow the steps bellow:
+
+- Clone/download repo
+- Use `vsce` command to build
+  - Don't have it? `npm install -g @vscode/vsce`
+- Run command `vsce package`
+- Go to vscode add select 'install from VSIX'
